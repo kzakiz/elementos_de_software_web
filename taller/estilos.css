@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabla {
+    width: 90%;
+}
+
+h2 {
+    color:darkred;
+
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    color: firebrick;
+}
+
+h4 {
+    color: maroon;
+}
