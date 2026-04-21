@@ -4,11 +4,11 @@
 }
 
 .tabla {
-    width: 90%;
+    width: 50%;
 }
 
-h2 {
-    color:darkred;
+h1 {
+    color: red;
 
 }
 
@@ -17,10 +17,18 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h3 {
+h2 {
     color: firebrick;
 }
 
-h4 {
+h3 {
     color: maroon;
+}
+
+li {
+    color: rgb(4, 51, 139);
+}
+
+.linea {
+    width: 1400px;
 }
