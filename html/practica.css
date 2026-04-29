@@ -1,0 +1,114 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #b3f3de;
+    color: rgb(31, 30, 30);
+    line-height: 1.6;
+    margin: 0; /* margen de la pagina */
+    padding: 0; /* espacio entre el borde del elemento y su contenido */
+}
+
+header {
+    background-color: rgb(84, 73, 185);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: rgb(59, 133, 245);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0; /* hace que el nav se quede en la parte superior al hacer scroll */ 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;  
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+main {
+    max-width: 900px;
+    max-width: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+article {
+    border-left: 4px solid rgb(84, 73, 185);
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: rgb(84, 73, 185);
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #414040;
+}
+
+th {
+    background-color: rgb(108, 98, 199);
+    color: white;
+    padding: 6px;
+}
+
+footer {
+    background-color: rgb(29, 19, 75);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.resaltado {
+    color: rgb(185, 73, 73);
+    font-weight: bold;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(175, 32, 32);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.boton:hover {
+    background-color: rgb(75, 32, 175);
+}
+
+#mensaje-importante {
+    background-color: rgb(175, 32, 32);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
