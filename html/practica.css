@@ -1,6 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #b3f3de;
+    background-color:#4DA8DA;
     color: rgb(31, 30, 30);
     line-height: 1.6;
     margin: 0; /* margen de la pagina */
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: rgb(84, 73, 185);
+    background-color: #1E3A5F;
     padding: 20px;
     text-align: center;
     color: white;
@@ -47,13 +47,13 @@ section {
 }
 
 article {
-    border-left: 4px solid rgb(84, 73, 185);
+    border-left: 4px solid #D9E2EC;
     padding-left: 15px;
     margin-bottom: 20px;
 }
 
 aside {
-    background-color: rgb(84, 73, 185);
+    background-color: #46494b;
     color: white;
     padding: 10px;
     font-size: 0.9em;
@@ -71,13 +71,13 @@ table, th, td {
 }
 
 th {
-    background-color: rgb(108, 98, 199);
+    background-color: rgb(37, 60, 192);
     color: white;
     padding: 6px;
 }
 
 footer {
-    background-color: rgb(29, 19, 75);
+    background-color: rgb(19, 23, 75);
     color: white;
     text-align: center;
     padding: 10px;
@@ -85,7 +85,7 @@ footer {
 }
 
 .resaltado {
-    color: rgb(185, 73, 73);
+    color: #FF6B6B;
     font-weight: bold;
 }
 
@@ -101,7 +101,7 @@ footer {
 }
 
 .boton:hover {
-    background-color: rgb(75, 32, 175);
+    background-color: rgb(6, 8, 141);
 }
 
 #mensaje-importante {
