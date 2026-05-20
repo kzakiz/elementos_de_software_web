@@ -1,0 +1,151 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background: linear-gradient(rgba(0, 0, 0.55) ,rgba(0, 0, 0, 0.55)), url("https://i.pinimg.com/736x/80/1d/98/801d98be6e760f175d2dada8ec615ec8.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #7CFC00;
+    font-size: 40px;
+    text-shadow: 3px 3px 0 #000;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #ffd54f;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px black;
+}
+
+section {
+    background: rgba(30 , 30, 30, 0.85);
+    border: 3px solid #5a5a5a;
+    border-radius: 14px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+/* ============================================ */
+/* PUNTO 1 */
+/* Resaltado tipo Minecraft oro */
+/* ============================================ */
+
+mark {
+    background-color: #ffd700;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* ============================================ */
+/* PUNTO 2 */
+/* Displays */
+/* ============================================ */
+
+.caja {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 3px solid#222;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.block {
+    display: block;
+    background: linear-gradient(#5c913b, #3f6628);
+    line-height: 100px;
+    margin: 15px auto;
+}
+
+.inline {
+    display: inline;
+    background: #888;
+    padding: 15px;
+}
+
+.inline-block {
+    display: inline-block;
+    background: linear-gradient(#00bcd4, #007a8a);
+    line-height: 100px;
+    margin-left: 15px;
+}
+
+.none {
+    display: none;
+}
+
+/* ============================================ */
+/* PUNTO 3 */
+/* Imagen dentro de un parrafo */
+/* ============================================ */
+
+p img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+/* ============================================ */
+/* PUNTO 4 */
+/* Imagen entre parrafos */
+/* ============================================ */
+
+.imagen-grande {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 15px;
+    border: 4px solid white;
+    box-shadow: 0 0 15px black;
+}
+
+/* ============================================ */
+/* PUNTO 5 */
+/* Ajustando imagenes */
+/* ============================================ */
+
+.contenedor-imagen {
+    width: 100px;
+    height: 100px;
+
+    /* a) Espacio interno */
+    padding: 10px;
+
+    /* b) borde */
+    border: 5px solid white;
+
+    /* c) Mantiene tamaño total */
+    box-sizing: border-box;
+
+    /* d) Centrado horizontal */ 
+    margin: 20px auto;
+
+    background-color: #8b5a2b;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
